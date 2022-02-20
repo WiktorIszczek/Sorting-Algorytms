@@ -8,14 +8,15 @@
 
 }
 body{
-    background-color: #db9659;
+    color: #eff6e0;
+    background-color: #223843;
 }
 li,a, button{
-    color: #FEFAE0;
+    color: #eff6e0;
     text-decoration: none;
 }
-header{
-    background-color: #423931;
+#topHeader{
+    background: linear-gradient(0, rgba(179, 179, 179, 0.144), rgba(136, 136, 136, 0.151));
     display:flex;
     justify-content: flex-end;
     align-items: center;
@@ -26,6 +27,7 @@ header{
     cursor: pointer;
 }
 .logo{
+    font-style:inherit;
     margin-right: auto;
 }
 ul {
@@ -35,3 +37,43 @@ ul li {
     display: inline-block;
     padding: 0px 20px;
  }
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ #sortingType{
+     font-size: 46px;
+ }
+ 
+ #menu{
+     display: flex;
+     justify-content: center;
+     margin: 20px;
+ }
+ .slider{
+    margin:0 30px;
+ }
+
+ .menuPref{
+     font-size: 16px;
+     margin-left: 0;
+ }
+#display{
+    display: flex;
+    background: linear-gradient(0, rgba(179, 179, 179, 0.144), rgba(136, 136, 136, 0.151));
+    width: 60%;
+    height: 600px;
+}
+
+.itemDs{
+    margin: 5px 0px 5px 5px;
+    width: 100%;
+    background-color: #223843;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.itemDs:last-child{
+    margin-right: 5px;
+}

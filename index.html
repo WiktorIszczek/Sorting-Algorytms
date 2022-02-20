@@ -24,8 +24,8 @@
 </head>
 
 <body> 
-    <header>
-        <img class="logo" alt="Types of sorting algorithms" src="./assets/icon.svg">
+    <header id="topHeader">
+        <div class="logo" alt="Types of sorting algorithms">SORT</div>
         <nav>
             <ul>
                 <li><div class="selectionType">Bubble</div ></li>
@@ -36,6 +36,31 @@
             </ul>
         </nav>
     </header>
+    <main>
+      <header id="sortingType">Type: Bubble</header>
+      <div id="menu">
+        <div class="slider">
+          <div class="menuPref">Amount:</div>
+          <input type="range" min="1" max="100" value="50"  id="myRange">
+        </div>
+        <div class="slider">
+          <div class="menuPref">Speed:</div>
+          <input type="range" min="1" max="100" value="50" id="myRange">
+        </div>      
+      </div>
+      <div id="display">
+        <div class="itemDs" data-numValue="1">1</div>
+        <div class="itemDs" data-numValue="20">20</div>
+        <div class="itemDs" data-numValue="20">20</div>
+        <div class="itemDs" data-numValue="20">20</div>
+        <div class="itemDs" data-numValue="120">120</div>
+        <div class="itemDs" data-numValue="20">20</div>
+        <div class="itemDs" data-numValue="20">20</div>
+        <div class="itemDs" data-numValue="20">20</div>
+        <div class="itemDs" data-numValue="255">255</div>
+        <div class="itemDs" data-numValue="20">20</div>
+ 
+    </main>
   <!-- your content here... --> 
   <script src="scripts/scripts.js"></script>
 </body>
