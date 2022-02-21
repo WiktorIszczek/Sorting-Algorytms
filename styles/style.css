@@ -67,6 +67,7 @@ main{
 }
 
 .itemDs{
+    text-size-adjust: none;
     margin: 5px 0px 5px 5px;
     width: 100%;
     background-color: #223843;
