@@ -45,6 +45,10 @@ main{
  #sortingType{
      font-size: 46px;
  }
+ .offselector{
+    text-decoration: line-through;
+    color: #eff6e073;
+ }
  
  #menu{
      display: flex;
@@ -64,17 +68,40 @@ main{
     background: linear-gradient(0, rgba(179, 179, 179, 0.144), rgba(136, 136, 136, 0.151));
     width: 60%;
     height: 600px;
+    padding: 10px;
 }
 
 .itemDs{
     text-size-adjust: none;
-    margin: 5px 0px 5px 5px;
     width: 100%;
     background-color: #223843;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
-.itemDs:last-child{
-    margin-right: 5px;
+
+
+.selected{
+    box-shadow:0px 0px 0px 500px rgba(11, 107, 252, 0.336) inset;
+}
+
+#sortButton, #resetButton{
+    color: black;
+    padding: 2px 15px;
+}
+
+#logg{
+    font-size: 44px;
+    padding: 0px 25px 0px 25px;
+    margin-bottom: 15px;
+}
+
+#logg > span{
+    font-size: 44px;
+}
+.lTrue{
+    color: rgb(19, 235, 19);
+}
+.lFalse{
+    color: rgb(235, 19, 19);
 }
