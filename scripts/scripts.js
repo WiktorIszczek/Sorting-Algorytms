@@ -1,4 +1,5 @@
-selectorR = document.getElementsByClassName("selectionType");
+selectorR = document.getElementsByClassName("activeselector");
+selectorOFF = document.getElementsByClassName("offselector");
 containerOfItems = document.getElementById("display");
 amountRange = document.getElementById("amountrange");
 sortButton = document.getElementById("sortButton");
@@ -11,13 +12,18 @@ let sortingMethod = "Bubble";
 for (el of selectorR) {
   el.addEventListener("click", (e) => {
     if(sortButton.disabled==false){
+      console.log(e)
       sortingMethod = e.target.innerHTML
       headder.innerHTML = `Type: ${sortingMethod}`
       console.log(sortingMethod);
     }
   });
 }
-
+for (el of selectorOFF){
+  el.addEventListener("click", (e) => {
+    alert(`${e.target.innerHTML} has not been created yet`)
+  });
+}
 // for (el of listOfItems) {
 //     el.setAttribute('style', `background-color:rgba(0, ${el.dataset.numvalue}, 0, 1)`);
 //     console.log(el.dataset.numvalue)
