@@ -84,7 +84,9 @@ main{
 .selected{
     box-shadow:0px 0px 0px 500px rgba(11, 107, 252, 0.336) inset;
 }
-
+.pointer{
+    box-shadow:0px 0px 0px 500px rgba(99, 252, 11, 0.336) inset;
+}
 #sortButton, #resetButton{
     color: black;
     padding: 2px 15px;
