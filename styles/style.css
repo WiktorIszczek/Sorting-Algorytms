@@ -23,7 +23,7 @@ li,a, button{
     padding: 10px 5%;
 }
 
-.logo, .selectionType{
+.selectionType{
     cursor: pointer;
 }
 .logo{
