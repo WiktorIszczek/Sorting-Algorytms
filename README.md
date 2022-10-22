@@ -1,2 +1,2 @@
 # Sorting-Algorytms
-https://wiktoriszczek.github.io/airports/
+https://wiktoriszczek.github.io/Sorting-Algorytms/
